@@ -24,6 +24,7 @@ button {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 /* apply custom-color */
@@ -32,10 +33,19 @@ button.btn-white {
   background: white;
 }
 
+button.btn-white:hover {
+  background-color: #d84b200c;
+  border: 1px solid #d84b20;
+}
+
 /* apply custom-background-color */
 button.btn-red {
   border: 1px solid #a92700;
   color: white;
+}
+
+button.btn-red:hover {
+  background-color: #d84b20de;
 }
 
 .content-wrapper {
