@@ -1,0 +1,23 @@
+#how-work-container {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#instructions-wrapper {
+  height: 80%;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instruction-section {
+  width: 28%;
+  height: 90%;
+  background-color: lightcoral;
+}
