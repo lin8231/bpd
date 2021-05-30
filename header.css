@@ -45,12 +45,16 @@ header > div {
   z-index: 3;
 }
 
-.logo {
+header > div > a {
   height: 80%;
+}
+
+.logo {
+  height: 100%;
   overflow: visible;
   padding-left: 1.5%;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 #header-items {
@@ -91,5 +95,13 @@ nav ul:hover {
 }
 
 #btn-set-container {
-  padding: 0 2% 0 6%;
+  padding: 0 2% 0 10%;
+}
+
+.btn-set {
+  width: 350px;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

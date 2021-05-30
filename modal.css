@@ -45,7 +45,7 @@
 #modal-title {
   font-weight: 500;
   font-family: "Poppins";
-  font-size: 28px;
+  font-size: 1.9vw;
 }
 
 #bookclubrego {
@@ -87,7 +87,7 @@
 
 .form-section-title {
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 1.4vw;
   font-weight: 400;
   line-height: 0;
 }
@@ -103,8 +103,8 @@
   width: 50%;
 }
 
-.name-field-container p {
-  font-size: 15px;
+form p {
+  font-size: 1vw;
   line-height: 0;
 }
 
@@ -114,7 +114,7 @@
 
 input {
   height: 25px;
-  font-size: 17px;
+  font-size: 1.1vw;
   width: 90%;
   background-color: transparent;
   border: 1px solid #c3c3c3;
@@ -166,7 +166,7 @@ input:focus {
 .address-content > textarea {
   width: 98%;
   height: 77%;
-  font-size: 17px;
+  font-size: 1.1vw;
   background-color: transparent;
   border: 1px solid #c3c3c3;
   border-radius: 3px;
