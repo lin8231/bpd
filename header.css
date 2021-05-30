@@ -4,7 +4,6 @@ header {
   position: fixed;
   top: -16px;
   z-index: 1;
-  -webkit-backface-visibility: hidden;
 }
 
 header div {
