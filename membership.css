@@ -1,7 +1,11 @@
-#bdp-description {
-  height: 55%;
+#membership-container {
+  height: 65%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+#membership-description {
+  padding-bottom: 15px;
 }
