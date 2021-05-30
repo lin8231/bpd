@@ -15,11 +15,11 @@
 /* Modal Content/Box */
 .modal-container {
   background-color: #fefefe;
-  margin: 5% auto; /* 15% from the top and centered */
+  margin: 3% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
-  height: 70%;
+  height: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -42,7 +42,7 @@
 }
 
 #modal-content {
-  height: 90%;
+  height: 95%;
   width: 90%;
   margin: auto;
   background-color: lightblue;
@@ -51,4 +51,111 @@
 #modal-title {
   font-weight: 500;
   font-family: "Poppins";
+  font-size: 28px;
+}
+
+#bookclubrego {
+  background-color: lightcoral;
+  height: 80%;
+  width: 100%;
+}
+
+#bookclubrego form {
+  background-color: #888;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-column {
+  width: 45%;
+  height: 100%;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#userDetails {
+  /* margin-top: -4%; */
+  height: 60%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+#contacts {
+  width: 100%;
+  height: 40%;
+}
+
+.form-section-title {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0;
+}
+
+#name-fields {
+  height: 30%;
+  width: 80%;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+}
+
+.name-field-container {
+  background-color: pink;
+  width: 50%;
+}
+
+.name-field-container p {
+  font-size: 15px;
+  line-height: 0;
+}
+
+.form-column p {
+  line-height: 0;
+}
+
+input {
+  height: 25px;
+  font-size: 17px;
+  width: 90%;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-weight: 200;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #d84b20 !important;
+}
+
+#username-pw {
+  height: 50%;
+  width: 70%;
+  background-color: lightsalmon;
+}
+
+#mobile-email {
+  height: 90%;
+  background-color: #888;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+#mobile {
+  width: 50%;
+}
+
+#email {
+  width: 80%;
 }
