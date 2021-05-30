@@ -41,24 +41,14 @@
 .instruction-section h3 {
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 0;
   padding-top: 20px;
   /* height: 10%; */
 }
 
-.instruction-text {
-  height: 500px;
-  /* background-color: aliceblue; */
-  align-items: flex-start;
-  justify-content: flex-start;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 .instruction-section p {
   /* height: 10%; */
   /* background: lightgoldenrodyellow; */
+  line-height: 1.6;
 }
