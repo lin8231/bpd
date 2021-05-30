@@ -18,7 +18,7 @@
   margin: 3% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 70%; /* Could be more or less, depending on screen size */
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@
 }
 
 .form-column {
-  width: 45%;
+  width: 50%;
   height: 100%;
   background-color: lightgoldenrodyellow;
   display: flex;
@@ -80,6 +80,9 @@
   align-items: flex-start;
 }
 
+#right-form-column {
+  width: 45%;
+}
 #userDetails {
   /* margin-top: -4%; */
   height: 60%;
@@ -158,4 +161,49 @@ input:focus {
 
 #email {
   width: 80%;
+}
+
+#addresses {
+  height: 100%;
+  background-color: lightseagreen;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#address-container {
+  height: 80%;
+  background-color: lightgreen;
+}
+
+.address-content {
+  height: 50%;
+}
+
+.address-content > textarea {
+  width: 98%;
+  height: 77%;
+  /* height: 25px; */
+  font-size: 17px;
+  /* width: 90%; */
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-weight: 200;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #d84b20 !important;
+}
+
+#form-buttons {
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-button {
+  width: 45%;
 }
