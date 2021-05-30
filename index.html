@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="how-work.css" />
     <link rel="stylesheet" href="membership.css" />
     <link rel="stylesheet" href="faq.css" />
-
+    <link rel="stylesheet" href="modal.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -42,7 +42,12 @@
           <div id="btn-set-container">
             <div class="btn-set">
               <button class="btn-white custom-color">Find a group</button>
-              <button class="btn-red custom-background-color">Sign up</button>
+              <button
+                class="btn-red custom-background-color"
+                id="trigger-modal"
+              >
+                Sign up
+              </button>
             </div>
           </div>
         </div>
@@ -62,7 +67,9 @@
 
         <div class="btn-set">
           <button class="btn-white custom-color">Find a group</button>
-          <button class="btn-red custom-background-color">Sign up</button>
+          <button class="btn-red custom-background-color" id="trigger-modal">
+            Sign up
+          </button>
         </div>
       </div>
       <div id="landing-illustration-container">
@@ -144,7 +151,9 @@
             rump brisket frankfurter shoulder kevin ham hock pork landjaeger.
             Ribeye t-bone tri-tip chislic biltong shank.
           </p>
-          <button class="btn-red custom-background-color">Sign up now</button>
+          <button class="btn-red custom-background-color" id="trigger-modal">
+            Sign up now
+          </button>
         </div>
       </div>
     </div>
@@ -180,5 +189,20 @@
       <div>Made with love, by Mercury Lin</div>
       <div>jlin296</div>
     </footer>
+
+    <!-- The Modal -->
+    <div id="modal-bg" class="modal-bg">
+      <!-- Modal content -->
+      <div class="modal-container">
+        <span class="close">&times;</span>
+
+        <!-- <>dsadsa</> -->
+        <div id="modal-content">
+          <h2 id="modal-title">Create your account</h2>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
