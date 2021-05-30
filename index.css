@@ -70,3 +70,17 @@ button.btn-red {
 .custom-color-translucent {
   background-color: #d84b2018;
 }
+
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  width: 20%;
+  text-align: center;
+}
