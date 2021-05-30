@@ -1,4 +1,4 @@
-console.log("scripts");
+console.log("scripts active");
 
 const btn = document.getElementById("trigger-modal");
 const navBtn = document.getElementById("nav-trigger-modal");
