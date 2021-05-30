@@ -71,7 +71,7 @@
 }
 
 .form-column {
-  width: 55%;
+  width: 60%;
   height: 100%;
   /* background-color: lightgoldenrodyellow; */
   display: flex;
@@ -83,6 +83,7 @@
 #right-form-column {
   width: 45%;
 }
+
 #userDetails {
   /* margin-top: -4%; */
   height: 60%;
