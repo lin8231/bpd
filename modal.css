@@ -37,9 +37,10 @@
 }
 
 #modal-content {
-  height: 95%;
+  height: 96%;
   width: 80%;
   margin: auto;
+  margin-top: -2px;
 }
 
 #modal-title {
